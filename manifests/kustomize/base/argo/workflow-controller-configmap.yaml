@@ -23,6 +23,7 @@ data:
                 key: secretkey
             }
         },
-        archiveLogs: true
+        archiveLogs: true,
+        containerRuntimeExecutor: pns
     }
     }
