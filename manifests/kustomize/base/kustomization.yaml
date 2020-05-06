@@ -12,6 +12,7 @@ bases:
 
 resources:
   - pipeline-application.yaml
+  - psp.yaml
 
 # Used by Kustomize
 configMapGenerator:
