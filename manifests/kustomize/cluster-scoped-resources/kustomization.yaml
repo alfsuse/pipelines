@@ -6,7 +6,7 @@ bases:
 - ../base/argo/cluster-scoped
 - ../base/pipeline/cluster-scoped
 - ../base/cache-deployer/cluster-scoped
-- ../base/overlay/psp
+- ../base/overlay/cluster-scoped/psp
 
 resources:
   - namespace.yaml
