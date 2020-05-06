@@ -22,5 +22,3 @@ varReference:
   kind: Application
 - path: spec/template/spec/containers/image
   kind: Deployment
-- path: overlay/psp
-  kind: PodSecurityPolicy
