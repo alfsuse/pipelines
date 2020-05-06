@@ -5,7 +5,7 @@ bases:
 - ../base/application/cluster-scoped
 - ../base/argo/cluster-scoped
 - ../base/pipeline/cluster-scoped
-- ../base/cache-deployer/cluster-scoped
+#- ../base/cache-deployer/cluster-scoped
 - ../base/overlay/psp/cluster-scoped
 
 resources:
