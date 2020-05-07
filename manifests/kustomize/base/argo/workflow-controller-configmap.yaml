@@ -6,6 +6,7 @@ data:
   config: |
     {
     namespace: $(NAMESPACE),
+    containerRuntimeExecutor: pns,
     executorImage: gcr.io/ml-pipeline/argoexec:v2.3.0-license-compliance,
     artifactRepository:
     {
@@ -23,7 +24,6 @@ data:
                 key: secretkey
             }
         },
-        archiveLogs: true,
-        containerRuntimeExecutor: pns
+        archiveLogs: true
     }
     }
